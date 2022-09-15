@@ -19,12 +19,19 @@ Print both the values it would be interchanged
 End the program
 ## PROGRAM:
 ```python 
-def fun(a):
-    c=a
-    return c
+#Program to swap two values.
+#Developed by: JEGADEESH
+#RegistereNumber:22004355
+a,b=int(input()),int(input())
+temp=b
+b=a
+a=temp
+print("Swapped values are:",a,b)
+
 ```
 ## OUTPUT
-![output](/outputswap.png)
+![output](/swapping2.png)
+
 
 
 ## RESULT:
